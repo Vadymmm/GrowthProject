@@ -1,0 +1,63 @@
+html {
+  font-family: Poppins;
+}
+a {
+  text-decoration: none;
+}
+.header {
+  display: flex;
+  max-width: 1440px;
+  height: 48px;
+  margin: 20px 96px;
+}
+.prj_name {
+  margin-top: 10px;
+  color: #131316;
+  font-size: 28px;
+  font-weight: 600;
+}
+.menu {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+.header_right_container {
+  display: flex;
+  flex-grow: 3;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 30px;
+  align-items: center;
+}
+.header_left_container {
+  height: 100%;
+  flex-grow: 1;
+  display: inline-flex;
+  gap: 8px;
+}
+.main_icon {
+  height: 15px;
+  margin-top: 7px;
+}
+.nav_li {
+  color: #131316;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+}
+.btn {
+  color: #131316;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+  border: none;
+  border-radius: 12px;
+  background: #f5f5f5;
+  font-family: "Poppins";
+  box-sizing: border-box;
+}
+.log_in {
+  width: 95px;
+  height: 48px;
+  padding: 12px 24px;
+}
