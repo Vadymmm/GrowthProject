@@ -306,3 +306,45 @@ section {
 .sales_img {
   width: 100%;
 }
+
+.team_call_section {
+  display: flex;
+  margin-top: 78px;
+}
+
+.box_title {
+  color: #131316;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 43px;
+  letter-spacing: -1px;
+  margin-bottom: 20px;
+}
+.team_call_img {
+  width: 728px;
+  height: 486px;
+  border-radius: 4px;
+}
+.box_info {
+  color: #494a4d;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 40px;
+}
+
+.basic_container {
+  max-width: 506px;
+  margin-left: 24px;
+}
+
+.link_learn_more {
+  color: #131316;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: -0.32px;
+}
+.arrow_learn_more {
+  width: 12px;
+  height: 10px;
+  margin-left: 8px;
+}
