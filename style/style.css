@@ -320,11 +320,6 @@ section {
   letter-spacing: -1px;
   margin-bottom: 20px;
 }
-.team_call_img {
-  width: 728px;
-  height: 486px;
-  border-radius: 4px;
-}
 .box_info {
   color: #494a4d;
   font-size: 16px;
@@ -334,9 +329,13 @@ section {
 
 .basic_container {
   max-width: 506px;
+}
+.right_box {
   margin-left: 24px;
 }
-
+.left_box {
+  margin-right: 24px;
+}
 .link_learn_more {
   color: #131316;
   font-size: 16px;
@@ -347,4 +346,13 @@ section {
   width: 12px;
   height: 10px;
   margin-left: 8px;
+}
+.communication_section {
+  display: flex;
+  margin-top: 78px;
+}
+.img {
+  width: 728px;
+  height: 486px;
+  border-radius: 4px;
 }
