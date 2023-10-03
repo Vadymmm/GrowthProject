@@ -71,7 +71,7 @@ section {
   display: flex;
   flex-direction: column;
 }
-.first_chapter {
+.first_part {
   max-width: 876px;
   min-height: 228px;
   display: flex;
@@ -79,7 +79,7 @@ section {
   align-items: flex-start;
   gap: 24px;
 }
-.chapter_name {
+.first_part_title {
   max-width: 824px;
   color: #131316;
   font-size: 64px;
@@ -88,7 +88,7 @@ section {
   line-height: 70px; /* 70.4px */
   letter-spacing: -2px;
 }
-.chapter_info {
+.first_part_info {
   max-width: 611px;
   color: #131316;
   font-size: 20px;
@@ -99,7 +99,7 @@ section {
 .btn_container {
   width: 613px;
 }
-.second_chapter {
+.second_part {
   width: 1440px;
   display: flex;
   margin-top: 34px;
