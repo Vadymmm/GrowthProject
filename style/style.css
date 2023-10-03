@@ -356,3 +356,8 @@ section {
   height: 486px;
   border-radius: 4px;
 }
+.productivity_section {
+  display: flex;
+  margin-top: 78px;
+  margin-bottom: 78px;
+}
