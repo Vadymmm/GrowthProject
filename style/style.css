@@ -111,21 +111,24 @@ section {
   background: #4891ff;
   color: #fff;
   font-size: 18px;
-  font-style: normal;
   font-weight: 500;
-  line-height: 27px;
   border-radius: 16px;
+  display: inline-flex;
+  margin-top: 0px;
 }
 .book_demo_btn {
+  display: inline-flex;
   padding: 16px 32px;
   justify-content: center;
   align-items: center;
   font-size: 18px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 27px;
   border-radius: 16px;
   margin-left: 10px;
+  gap: 10px;
+}
+.camera_icon {
+  width: 18px;
+  height: 22px;
 }
 .team_info_section_img {
   width: 612px;
