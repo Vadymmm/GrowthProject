@@ -21,6 +21,9 @@ a {
   gap: 40px;
   align-items: center;
 }
+.burger_menu {
+  display: none;
+}
 .header_right_container {
   display: flex;
   flex-grow: 3;
@@ -457,4 +460,266 @@ section {
 }
 .card_firm {
   line-height: 150%;
+}
+
+@media (max-width: 375px) {
+  body {
+    max-width: 375px;
+  }
+  .menu {
+    display: none;
+  }
+  .burger_menu {
+    display: block;
+  }
+
+  .header {
+    max-width: 375px;
+    margin: 28px 16px;
+  }
+  section {
+    max-width: 375px;
+  }
+  .log_in {
+    display: none;
+  }
+  .first_part {
+    width: 343px;
+  }
+  .first_part_title {
+    font-size: 36px;
+    line-height: 110%;
+  }
+  .first_part_info {
+    font-size: 18px;
+    line-height: 160%;
+  }
+  .get_started_section {
+    margin: 84px 16px;
+    margin-bottom: 0px;
+    text-align: center;
+  }
+  .btn_container {
+    width: 343px;
+  }
+  .get_started_btn {
+    justify-content: center;
+    width: 343px;
+  }
+  .book_demo_btn {
+    width: 343px;
+    margin-top: 19px;
+    margin-left: 0;
+  }
+  .team_info_section_img {
+    width: 343px;
+    margin-top: 59px;
+  }
+  .scale_img {
+    width: 210px;
+    height: 231px;
+  }
+  .second_part {
+    width: 375px;
+    flex-direction: column;
+    gap: 17px;
+  }
+  .girl_photo_container {
+    width: 106px;
+    height: 106px;
+  }
+  .girl_img {
+    width: 106px;
+    height: 144px;
+  }
+  .bg_microphone {
+    margin-bottom: 10px;
+    margin-left: -63px;
+    width: 22px;
+    height: 22px;
+  }
+  .microphone {
+    margin-top: 6px;
+    margin-left: 0px;
+    width: 10px;
+    height: 12px;
+  }
+  .team_call_container {
+    width: 106px;
+    height: 106px;
+  }
+  .team_call_name {
+    font-size: 9px;
+    margin-top: 16px;
+    margin-bottom: 0px;
+  }
+  .team_call_info {
+    font-size: 6px;
+    width: 80px;
+    line-height: 120%;
+  }
+  .team_call_time {
+    font-size: 6px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+  }
+  .join_btn {
+    width: 80px;
+    height: 19px;
+    font-size: 7px;
+    align-items: center;
+    background: #131316;
+  }
+  .scale_container {
+    grid-gap: 20px 0px;
+  }
+  .tools_section {
+    width: 375px;
+    margin: 63px 16px;
+    margin-bottom: 0;
+    margin-right: 0;
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+  }
+  .tools_section_title_container {
+    width: 375px;
+    margin: 0px;
+    align-items: flex-start;
+    gap: 16px;
+    height: 212px;
+  }
+  .tools_section_title {
+    width: 343px;
+    height: 118px;
+    font-size: 32px;
+    line-height: 120%;
+  }
+  .tools_section_info {
+    width: 343px;
+    line-height: 160%;
+  }
+  .dashboard_container {
+    margin-top: 40px;
+    margin-right: 0;
+    width: 343px;
+    display: flex;
+    flex-direction: column;
+  }
+  .dashboard_container_title {
+    width: 343px;
+    font-size: 24px;
+    line-height: 120%;
+    margin-bottom: 8px;
+  }
+  .dashboard_monitoring_container {
+    width: 345px;
+    margin-top: 24px;
+  }
+  .dashboard_monitoring_info {
+    width: 345px;
+    font-size: 16px;
+  }
+  .black_line,
+  .grey_line {
+    width: 343px;
+  }
+  .dashboard_monitoring_title {
+    font-size: 20px;
+    margin: 20px 0;
+  }
+  .sales_container {
+    width: 343px;
+    height: 229px;
+  }
+  .sales_img {
+    width: 343px;
+  }
+  .team_call_section {
+    flex-direction: column-reverse;
+    margin: 40px 16px;
+  }
+  .box_title {
+    font-size: 24px;
+    margin-bottom: 8px;
+  }
+  .right_box {
+    margin-left: 0;
+    width: 343px;
+  }
+  .box_info {
+    margin-bottom: 20px;
+  }
+  .img {
+    margin-top: 24px;
+    width: 343px;
+    height: 277px;
+  }
+  .communication_section {
+    flex-direction: column;
+    margin: 40px 16px;
+  }
+  .productivity_section {
+    width: 359px;
+    flex-direction: column-reverse;
+    margin: 40px 16px;
+    margin-right: 0;
+  }
+  .video_section {
+    width: 375px;
+    height: fit-content;
+    margin: 0;
+    padding-bottom: 64px;
+  }
+  .video_section_part_1 {
+    width: 343px;
+    margin: 45px 16px;
+    margin-bottom: 0;
+  }
+  .video_section_title {
+    font-size: 32px;
+    width: 343px;
+    margin: 0;
+    line-height: 120%;
+  }
+  .video_wrapper {
+    width: 343px;
+    height: 200px;
+    border-radius: 15px;
+    margin-top: 56px;
+    margin-bottom: 40px;
+  }
+  .play_icon {
+    width: 40px;
+    height: 40px;
+  }
+  .video_section_line {
+    width: 343px;
+    margin: 66px 0;
+  }
+  .cards_container_title {
+    margin: 0 16px;
+    font-size: 32px;
+    width: 343px;
+  }
+  .cards_container {
+    width: 343px;
+    flex-direction: column;
+    margin-left: 16px;
+    margin-top: 40px;
+    gap: 32px;
+  }
+  .card {
+    width: 343px;
+    padding: 32px 24px;
+    gap: 20px;
+    box-sizing: border-box;
+  }
+  .card_info {
+    width: 295px;
+    font-size: 16px;
+  }
+  .card_author {
+    font-size: 16px;
+  }
 }
