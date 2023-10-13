@@ -396,10 +396,15 @@ section {
   margin-bottom: 64px;
 }
 .play_icon {
+  width: 82px;
+  width: 82px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  transition: all 1s ease-in-out;
+  animation: rotate-button 2s ease-in infinite;
+  transform-origin: top left;
 }
 .video_section_line {
   width: 1265px;
@@ -678,6 +683,43 @@ section {
   font-size: 14px;
   line-height: 150%; /* 21px */
 }
+/*     hover effects + animation     */
+.blue-btn_hover:hover {
+  color: #4891ff;
+  background-color: rgb(230, 234, 181);
+  box-sizing: border-box;
+}
+.grey-btn_hover:hover {
+  background-color: white;
+}
+.link-hover:hover {
+  text-decoration: underline;
+}
+.input-hover:hover {
+  border: 1px solid aqua;
+}
+.play-icon_hover:hover {
+  width: 100px;
+  height: 100px;
+}
+@keyframes rotate-button {
+  0% {
+    transform: rotate(0deg) translate(-50%, -50%);
+  }
+  25% {
+    transform: rotate(90deg) translate(-50%, -50%);
+  }
+  50% {
+    transform: rotate(180deg) translate(-50%, -50%);
+  }
+  75% {
+    transform: rotate(270deg) translate(-50%, -50%);
+  }
+  100% {
+    transform: rotate(360deg) translate(-50%, -50%);
+  }
+}
+
 /*-----------------------*/
 @media (max-width: 375px) {
   body {
@@ -909,6 +951,7 @@ section {
   .play_icon {
     width: 40px;
     height: 40px;
+    transition: all 3s ease-in-out;
   }
   .video_section_line {
     width: 343px;
@@ -1057,5 +1100,22 @@ section {
   }
   .footer_copyright {
     margin-left: 16px;
+  }
+  @keyframes rotate-button {
+    0% {
+      transform: rotate(0deg) translate(-50%, -50%);
+    }
+    25% {
+      transform: rotate(90deg) translate(-50%, -50%);
+    }
+    50% {
+      transform: rotate(180deg) translate(-50%, -50%);
+    }
+    75% {
+      transform: rotate(270deg) translate(-50%, -50%);
+    }
+    100% {
+      transform: rotate(360deg) translate(-50%, -50%);
+    }
   }
 }
