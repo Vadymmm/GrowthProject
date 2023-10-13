@@ -461,7 +461,7 @@ section {
 .card_firm {
   line-height: 150%;
 }
-/*pricing-section style*/
+/*    pricing-section   */
 .pricing_section {
   margin: 0;
   padding: 104px 308px;
@@ -576,7 +576,108 @@ section {
 }
 
 /*     footer style      */
-
+.footer {
+  width: 1249px;
+  padding-top: 109px;
+  padding-left: 78px;
+  padding-bottom: 40px;
+  background-color: #131316;
+}
+.footer_logo {
+  height: 100%;
+  flex-grow: 1;
+  display: inline-flex;
+  gap: 8px;
+}
+.logo_white {
+  color: white;
+}
+.subscribe-form_container {
+  width: 406px;
+  height: 205px;
+  border-radius: 16px;
+  background: #f4f4f6;
+  padding: 24px;
+  box-sizing: border-box;
+}
+.subscribe-form_title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 150%;
+  margin-bottom: 8px;
+}
+.subscribe-form_info {
+  font-size: 16px;
+  width: 357px;
+  line-height: 150%; /* 24px */
+  margin-bottom: 20px;
+}
+.form-email {
+  width: 357px;
+  display: flex;
+  justify-content: space-between;
+}
+#email {
+  display: flex;
+  width: 220px;
+  padding: 12px 24px 12px 12px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  border: 1px solid #bebdc6;
+  box-sizing: border-box;
+}
+.btn_subscribe {
+  display: inline-flex;
+  padding: 12px 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background: #4891ff;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+}
+.subscribe_container {
+  display: flex;
+  flex-direction: row;
+}
+.comp-res-cont_container {
+  display: flex;
+  gap: 102px;
+  margin-left: 131px;
+}
+.comp-res-cont_container li {
+  color: #bcc2c3;
+  font-size: 16px;
+  line-height: 150%; /* 24px */
+  margin-bottom: 16px;
+}
+.comp-res-cont_container li a {
+  color: #bcc2c3;
+}
+.comp-res-cont_container li:nth-child(1) {
+  color: #dfdee2;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 120%; /* 21.6px */
+  margin-bottom: 20px;
+}
+.comp-res-cont_container ul {
+  width: 113px;
+}
+.footer_network-icons {
+  display: flex;
+  gap: 16px;
+  margin-top: 40px;
+  margin-bottom: 65px;
+}
+.footer_copyright {
+  color: #bcc2c3;
+  font-size: 14px;
+  line-height: 150%; /* 21px */
+}
 /*-----------------------*/
 @media (max-width: 375px) {
   body {
@@ -837,5 +938,124 @@ section {
   }
   .card_author {
     font-size: 16px;
+  }
+  /*    pricing-section   */
+  .pricing_section {
+    width: 375px;
+    height: 1619px;
+    padding: 0;
+  }
+  .pricing_title {
+    font-size: 32px;
+  }
+  .pricing_title_container {
+    width: 343px;
+    gap: 16px;
+    margin-top: 64px;
+    margin-left: 16px;
+    margin-bottom: 40px;
+  }
+  .tariff_container {
+    max-height: 1332px;
+    flex-direction: column;
+    gap: 32px;
+  }
+  .subscribe_container {
+    flex-direction: column;
+  }
+  .tarif-card {
+    width: 343px;
+    padding: 40px 24px;
+    margin-left: 10px;
+  }
+  .tarif-card__title {
+    font-size: 28px;
+    margin-bottom: 4px;
+  }
+  .price {
+    font-size: 28px;
+  }
+  .price-box {
+    margin-bottom: 32px;
+  }
+  .price_info {
+    font-size: 12px;
+    margin-left: 16px;
+  }
+  .line {
+    width: 295px;
+  }
+  .description-list {
+    margin-left: 25px;
+  }
+  .description-list li {
+    width: 268px;
+  }
+  .price_btn {
+    width: 295px;
+  }
+  .note-text {
+    width: 293px;
+    margin: 46px 41px;
+    text-align: center;
+  }
+  .description-list_title {
+    margin-left: 0;
+  }
+  /*  footer  */
+
+  .footer {
+    width: 375px;
+    height: 800px;
+    padding: 0;
+  }
+  .footer_logo {
+    margin-top: 63px;
+    margin-left: 16px;
+    margin-bottom: 24px;
+    height: 32px;
+  }
+  .subscribe_container {
+    width: 343px;
+    margin-left: 16px;
+  }
+  .subscribe-form_container {
+    width: 343px;
+  }
+  .subscribe-form_title {
+    font-size: 18px;
+  }
+  .subscribe-form_info {
+    width: 295px;
+  }
+  .subscribe-form_container {
+    height: 219px;
+  }
+  .form-email {
+    width: 295px;
+  }
+  #email {
+    width: 166px;
+  }
+  .comp-res-cont_container {
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-left: 0px;
+    gap: 71px;
+    row-gap: 42px;
+  }
+  .comp-res-cont_container ul {
+    width: 125px;
+  }
+  .comp-res-cont_container li {
+    width: 125px;
+  }
+  .footer_network-icons {
+    margin-top: 46px;
+    margin-left: 16px;
+    margin-bottom: 24px;
+  }
+  .footer_copyright {
+    margin-left: 16px;
   }
 }
